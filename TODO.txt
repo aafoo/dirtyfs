@@ -1,0 +1,10 @@
+1. Create Inode structure.
+2. Create Directory layout.
+3. Define Inode operations.
+4. Define Directory operations.
+5. Define address space operations.
+6. Define superblock and its super operations.
+
+Make a block group of 100MB.
+With max size of 80k, roughly 100k as file size we can fit 10 files in 1MB. Then 1000 files in
+100 MB. so we need to have space for 1000 inodes in a block. With size as 1024, 4 inodes can come in a block. With means we need 250 inode blocks for 100MB.
