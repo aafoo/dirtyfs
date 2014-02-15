@@ -1,0 +1,5 @@
+This is linux based file system. I created this just to
+learn how a file system is written with hands on expierience. Check TODO.txt
+for pending task.
+
+It is highly inspired by ext2. Do not use this in your production environmet.
